@@ -9,9 +9,13 @@ dependencies = [
     "django>=5.1.4",
     "crispy-bootstrap5>=2024.10",
     "django-htmx>=1.21.0",
+    "htmx-messages",
 ]
 
 [dependency-groups]
 dev = [
     "djlint>=1.36.4",
 ]
+
+[tool.uv.sources]
+htmx-messages = { git = "https://github.com/johnnynenha/django_htmx_messages.git" }

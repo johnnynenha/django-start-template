@@ -103,6 +103,7 @@ dependencies = [
     { name = "django" },
     { name = "django-crispy-forms" },
     { name = "django-htmx" },
+    { name = "htmx-messages" },
 ]
 
 [package.dev-dependencies]
@@ -116,6 +117,7 @@ requires-dist = [
     { name = "django", specifier = ">=5.1.4" },
     { name = "django-crispy-forms", specifier = ">=2.3" },
     { name = "django-htmx", specifier = ">=1.21.0" },
+    { name = "htmx-messages", git = "https://github.com/johnnynenha/django_htmx_messages.git" },
 ]
 
 [package.metadata.requires-dev]
@@ -156,6 +158,14 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b4/29/785595a0d8b30ab8d2486559cfba1d46487b8dcbd99f74960b6b4cca92a4/editorconfig-0.17.0.tar.gz", hash = "sha256:8739052279699840065d3a9f5c125d7d5a98daeefe53b0e5274261d77cb49aa2", size = 13369 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/af/e5/8dba39ea24ca3de0e954e668107692f4dfc13a85300a531fa9a39e83fde4/EditorConfig-0.17.0-py3-none-any.whl", hash = "sha256:fe491719c5f65959ec00b167d07740e7ffec9a3f362038c72b289330b9991dfc", size = 16276 },
+]
+
+[[package]]
+name = "htmx-messages"
+version = "0.1.0"
+source = { git = "https://github.com/johnnynenha/django_htmx_messages.git#6fbd0cb9adc409e8852e06777c2119f25b6710c7" }
+dependencies = [
+    { name = "django" },
 ]
 
 [[package]]

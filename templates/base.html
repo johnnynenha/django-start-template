@@ -9,18 +9,21 @@
         <link rel="stylesheet"
               href="{% static "bootstrap/5.3.3/css/bootstrap.min.css" %}">
         <script src="{% static "htmx/js/htmx-1.9.12.min.js" %}" defer></script>
+        <script src="{% static "alpinejs/js/cdn.min.js" %}" defer></script>
 
         {% block extra_head_css_js %}
         {% endblock extra_head_css_js %}
 
     </head>
     <body>
+        {% include "htmx_messages/messages.html" %}
         {% include "includes/navbar.html" %}
 
         {% block layout %}
         {% endblock layout %}
 
         <script src="{% static "bootstrap/5.3.3/js/bootstrap.bundle.min.js" %}"></script>
+        <script src="{% static "js/htmx_messages.js" %}"></script>
 
         {% block extra_body_js %}
         {% endblock extra_body_js %}

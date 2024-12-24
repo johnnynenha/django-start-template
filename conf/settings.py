@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+from django.contrib import messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
     "django_htmx",
+    "htmx_messages",
 ]
 
 MIDDLEWARE = [
@@ -51,6 +53,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django_htmx.middleware.HtmxMiddleware",
+    "htmx_messages.middleware.HtmxMessagesMiddleware",
 ]
 
 ROOT_URLCONF = "conf.urls"
@@ -134,3 +137,14 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+if DEBUG:
+    MESSAGE_LEVEL = messages.DEBUG
+
+MESSAGE_TAGS = {
+    messages.DEBUG: "text-bg-light",
+    messages.INFO: "text-bg-primary",
+    messages.SUCCESS: "text-bg-success",
+    messages.WARNING: "text-bg-warning",
+    messages.ERROR: "text-bg-danger",
+}
