@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Django start template</title>
+        <link rel="stylesheet"
+              href="{% static "bootstrap/5.3.3/css/bootstrap.min.css" %}">
+        <script src="{% static "htmx/js/htmx-1.9.12.min.js" %}" defer></script>
+
+        {% block extra_head_css_js %}
+        {% endblock extra_head_css_js %}
+
+    </head>
+
+    {% block extra_head_css_js %}
+    {% endblock extra_head_css_js %}
+
+    <body>
+
+        {% block layout %}
+        {% endblock layout %}
+
+        <script src="{% static "bootstrap/5.3.3/js/bootstrap.bundle.min.js" %}"></script>
+
+        {% block extra_body_js %}
+        {% endblock extra_body_js %}
+
+    </body>
+</html>
