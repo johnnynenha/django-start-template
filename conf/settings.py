@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     "django_htmx",
     "htmx_messages",
+    "django_extensions",
+    "django_browser_reload",
 ]
 
 MIDDLEWARE = [
@@ -54,6 +56,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django_htmx.middleware.HtmxMiddleware",
     "htmx_messages.middleware.HtmxMessagesMiddleware",
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ROOT_URLCONF = "conf.urls"

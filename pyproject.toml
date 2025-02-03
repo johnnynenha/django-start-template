@@ -10,6 +10,8 @@ dependencies = [
     "crispy-bootstrap5>=2024.10",
     "django-htmx>=1.21.0",
     "htmx-messages",
+    "django-extensions>=3.2.3",
+    "django-browser-reload>=1.17.0",
 ]
 
 [dependency-groups]
