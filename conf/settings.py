@@ -151,3 +151,7 @@ MESSAGE_TAGS = {
     messages.WARNING: "text-bg-warning",
     messages.ERROR: "text-bg-danger",
 }
+
+# Media files
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "media/"
