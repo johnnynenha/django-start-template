@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12"
 
 [[package]]
@@ -133,6 +134,7 @@ dependencies = [
     { name = "django-crispy-forms" },
     { name = "django-extensions" },
     { name = "django-htmx" },
+    { name = "fontawesomefree" },
     { name = "htmx-messages" },
 ]
 
@@ -149,6 +151,7 @@ requires-dist = [
     { name = "django-crispy-forms", specifier = ">=2.3" },
     { name = "django-extensions", specifier = ">=3.2.3" },
     { name = "django-htmx", specifier = ">=1.21.0" },
+    { name = "fontawesomefree", specifier = "==6.6.0" },
     { name = "htmx-messages", git = "https://github.com/johnnynenha/django_htmx_messages.git" },
 ]
 
@@ -190,6 +193,14 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/b4/29/785595a0d8b30ab8d2486559cfba1d46487b8dcbd99f74960b6b4cca92a4/editorconfig-0.17.0.tar.gz", hash = "sha256:8739052279699840065d3a9f5c125d7d5a98daeefe53b0e5274261d77cb49aa2", size = 13369 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/af/e5/8dba39ea24ca3de0e954e668107692f4dfc13a85300a531fa9a39e83fde4/EditorConfig-0.17.0-py3-none-any.whl", hash = "sha256:fe491719c5f65959ec00b167d07740e7ffec9a3f362038c72b289330b9991dfc", size = 16276 },
+]
+
+[[package]]
+name = "fontawesomefree"
+version = "6.6.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bb/e9/d43f5133b73e7ef9047bda28daaa6905e00b7d39f093b547f7e78ee2fc40/fontawesomefree-6.6.0-py3-none-any.whl", hash = "sha256:599b574431c9bd92ed5fc054d1045a07c42335da36c17884f2b934755eef9089", size = 25645298 },
 ]
 
 [[package]]

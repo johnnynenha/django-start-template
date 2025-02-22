@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "htmx_messages",
     "django_extensions",
     "django_browser_reload",
+    "fontawesomefree",
 ]
 
 MIDDLEWARE = [
