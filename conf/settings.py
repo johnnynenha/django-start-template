@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "django_extensions",
     "django_browser_reload",
     "fontawesomefree",
+    "debug_toolbar",
 ]
 
 MIDDLEWARE = [
@@ -55,6 +56,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django_htmx.middleware.HtmxMiddleware",
     "htmx_messages.middleware.HtmxMessagesMiddleware",
     "django_browser_reload.middleware.BrowserReloadMiddleware",
@@ -156,3 +158,7 @@ MESSAGE_TAGS = {
 # Media files
 MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "media/"
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
