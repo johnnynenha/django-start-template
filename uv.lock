@@ -34,15 +34,15 @@ wheels = [
 
 [[package]]
 name = "crispy-bootstrap5"
-version = "2024.10"
+version = "2025.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
     { name = "django-crispy-forms" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/04/9f/28326c4d35062fdb4ed228c555525da482bbb408cb1c2665a932a5a19880/crispy_bootstrap5-2024.10.tar.gz", hash = "sha256:55b442fe675dd95ad280123c7fe464f454186e90b8e5642e751f436c87627c44", size = 23645 }
+sdist = { url = "https://files.pythonhosted.org/packages/59/65/d4406d4c914aedea8e2de9cf44d70bd1f6e339c87ef2d5791ff10fa223d2/crispy_bootstrap5-2025.4.tar.gz", hash = "sha256:d675ea7e245048905077dfe16bf1fa1ee16842f52fe88164ccc8a5e2d11119b3", size = 23913 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bf/3f/bc3bdbda8a6acc1d6b89b63ddd8b82a55a27b5828742716fefca0384e3be/crispy_bootstrap5-2024.10-py3-none-any.whl", hash = "sha256:59e91dac5e45a8c954af3fbcaa6804cd5aef4402f027af2f99a352b096c4016f", size = 24454 },
+    { url = "https://files.pythonhosted.org/packages/b8/9a/4f1166cc82c9f777cf9a5bc2a75171d63301ac317c5de8f59bd44bfe2b7a/crispy_bootstrap5-2025.4-py3-none-any.whl", hash = "sha256:51efa19c7d40e339774a6fe23407e83b95b7634cad6de70fd1f1093131bea1d9", size = 24772 },
 ]
 
 [[package]]
@@ -61,16 +61,16 @@ wheels = [
 
 [[package]]
 name = "django"
-version = "5.1.7"
+version = "5.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asgiref" },
     { name = "sqlparse" },
     { name = "tzdata", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5f/57/11186e493ddc5a5e92cc7924a6363f7d4c2b645f7d7cb04a26a63f9bfb8b/Django-5.1.7.tar.gz", hash = "sha256:30de4ee43a98e5d3da36a9002f287ff400b43ca51791920bfb35f6917bfe041c", size = 10716510 }
+sdist = { url = "https://files.pythonhosted.org/packages/4c/1b/c6da718c65228eb3a7ff7ba6a32d8e80fa840ca9057490504e099e4dd1ef/Django-5.2.tar.gz", hash = "sha256:1a47f7a7a3d43ce64570d350e008d2949abe8c7e21737b351b6a1611277c6d89", size = 10824891 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ba/0f/7e042df3d462d39ae01b27a09ee76653692442bc3701fbfa6cb38e12889d/Django-5.1.7-py3-none-any.whl", hash = "sha256:1323617cb624add820cb9611cdcc788312d250824f92ca6048fda8625514af2b", size = 8276912 },
+    { url = "https://files.pythonhosted.org/packages/63/e0/6a5b5ea350c5bd63fe94b05e4c146c18facb51229d9dee42aa39f9fc2214/Django-5.2-py3-none-any.whl", hash = "sha256:91ceed4e3a6db5aedced65e3c8f963118ea9ba753fc620831c77074e620e7d83", size = 8301361 },
 ]
 
 [[package]]
@@ -100,15 +100,15 @@ wheels = [
 
 [[package]]
 name = "django-debug-toolbar"
-version = "5.0.1"
+version = "5.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
     { name = "sqlparse" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/93/f6/022cffde1ec6daf3d1418d03a69ddc4f760151f75664dcc9fd2167b2997f/django_debug_toolbar-5.0.1.tar.gz", hash = "sha256:296f6f18a80710e84fbb8361538ae5ec522a75ebe9ab67db34bcf1026cbeb420", size = 295982 }
+sdist = { url = "https://files.pythonhosted.org/packages/5b/6b/41281bf3f9939713010f24f46a033a74cf90599f52f09aaa8b0b118692b7/django_debug_toolbar-5.1.0.tar.gz", hash = "sha256:8a3b9da4aeab8d384a366e20304bd939a451f0242523c5b7b402248ad474eed2", size = 294567 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/36/f7/3b406dc871d88c938d2bd967e65acf725b46c4e7c9add6a1f1bbaff9bdcf/django_debug_toolbar-5.0.1-py3-none-any.whl", hash = "sha256:7456cc2e951db37dab335686db7803c4a0ecb6736d120705f6668db9548bf49f", size = 260038 },
+    { url = "https://files.pythonhosted.org/packages/62/ce/39831ce0a946979fdf19c32e6dcd1754a70e3280815aa7a377f61d5e021c/django_debug_toolbar-5.1.0-py3-none-any.whl", hash = "sha256:c0591e338ee9603bdfce5aebf8d18ca7341fdbb69595e2b0b34869be5857180e", size = 261531 },
 ]
 
 [[package]]
@@ -125,15 +125,15 @@ wheels = [
 
 [[package]]
 name = "django-htmx"
-version = "1.22.0"
+version = "1.23.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asgiref" },
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e2/59/bac8c1873a676ea661babd5d8bc1a04cfcfe1176b0bf526bcd058e6ec05a/django_htmx-1.22.0.tar.gz", hash = "sha256:7306e1aba4e407496f30a57ec2e0b2974a9b96c8c6036f7ec6a8b5753ea0abdd", size = 9621 }
+sdist = { url = "https://files.pythonhosted.org/packages/dd/3c/8bf0e45b60094bbfc2147d48088a6af712534f319765352d5463c7433064/django_htmx-1.23.0.tar.gz", hash = "sha256:71e6242ac6bd32a0e14fcb12b340f901c9a924f0b4e9b461a5e6a6eea8d9c6dd", size = 63450 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/62/6d/c99d5d5a9edb759ebd295ec96479254b6cc7b80f40d1ee66ebb7d677fc0d/django_htmx-1.22.0-py3-none-any.whl", hash = "sha256:9f1fcf239125a42d6dadc814b3796b8d6faad8ded444a14ae021d0241fa9a40f", size = 6904 },
+    { url = "https://files.pythonhosted.org/packages/82/47/53ac27bd75d164fa6f3996367c082933ed7ff7a0d59463e09ae97c148ff8/django_htmx-1.23.0-py3-none-any.whl", hash = "sha256:bca2d7590f3df8611a32a436b9f098d8bccb9762b99b01c08dc42336966700a0", size = 60822 },
 ]
 
 [[package]]
@@ -243,11 +243,11 @@ wheels = [
 
 [[package]]
 name = "json5"
-version = "0.10.0"
+version = "0.11.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/85/3d/bbe62f3d0c05a689c711cff57b2e3ac3d3e526380adb7c781989f075115c/json5-0.10.0.tar.gz", hash = "sha256:e66941c8f0a02026943c52c2eb34ebeb2a6f819a0be05920a6f5243cd30fd559", size = 48202 }
+sdist = { url = "https://files.pythonhosted.org/packages/f8/c5/1ac1e9f9f994cbfa40ff2a706872d017e89cda87d187709a2fd8a8b62ac2/json5-0.11.0.tar.gz", hash = "sha256:dab115459d9372760f2b568d949e069edd991f8e75458cff67328b9125750f12", size = 51014 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/aa/42/797895b952b682c3dafe23b1834507ee7f02f4d6299b65aaa61425763278/json5-0.10.0-py3-none-any.whl", hash = "sha256:19b23410220a7271e8377f81ba8aacba2fdd56947fbb137ee5977cbe1f5e8dfa", size = 34049 },
+    { url = "https://files.pythonhosted.org/packages/a9/bd/2278060147a9a14990ab6e70e0f24a3b3f13e899a15ad16f69697c09a180/json5-0.11.0-py3-none-any.whl", hash = "sha256:19b10a65c82d1aefd389f92c13aeeb3c611c79e8d4f28442dfc153dd24f6f0ff", size = 35889 },
 ]
 
 [[package]]
@@ -355,9 +355,9 @@ wheels = [
 
 [[package]]
 name = "tzdata"
-version = "2025.1"
+version = "2025.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/43/0f/fa4723f22942480be4ca9527bbde8d43f6c3f2fe8412f00e7f5f6746bc8b/tzdata-2025.1.tar.gz", hash = "sha256:24894909e88cdb28bd1636c6887801df64cb485bd593f2fd83ef29075a81d694", size = 194950 }
+sdist = { url = "https://files.pythonhosted.org/packages/95/32/1a225d6164441be760d75c2c42e2780dc0873fe382da3e98a2e1e48361e5/tzdata-2025.2.tar.gz", hash = "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9", size = 196380 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0f/dd/84f10e23edd882c6f968c21c2434fe67bd4a528967067515feca9e611e5e/tzdata-2025.1-py2.py3-none-any.whl", hash = "sha256:7e127113816800496f027041c570f50bcd464a020098a3b6b199517772303639", size = 346762 },
+    { url = "https://files.pythonhosted.org/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl", hash = "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8", size = 347839 },
 ]
